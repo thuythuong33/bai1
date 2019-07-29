@@ -1,0 +1,6 @@
+D:\cn.net\bai1\bt1\bt1\bin\bt1.dll.config
+D:\cn.net\bai1\bt1\bt1\bin\bt1.dll
+D:\cn.net\bai1\bt1\bt1\bin\bt1.pdb
+D:\cn.net\bai1\bt1\bt1\obj\Debug\bt1.csprojResolveAssemblyReference.cache
+D:\cn.net\bai1\bt1\bt1\obj\Debug\bt1.dll
+D:\cn.net\bai1\bt1\bt1\obj\Debug\bt1.pdb

@@ -18,7 +18,8 @@ namespace b3
         {
             if (Page.IsValid && FileUpload1.HasFile)
         {
-            string fileName = "images/" + FileUpload1.FileName;
+           // string fileName = "images/" + FileUpload1.FileName;
+            string fileName = FileUpload1.FileName;
             string filePath = MapPath(fileName);
             FileUpload1.SaveAs(filePath);
             Image1.ImageUrl = fileName;

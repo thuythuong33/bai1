@@ -1,0 +1,6 @@
+D:\cn.net\bai1\DANGKI\DANGKI\bin\DANGKI.dll.config
+D:\cn.net\bai1\DANGKI\DANGKI\bin\DANGKI.dll
+D:\cn.net\bai1\DANGKI\DANGKI\bin\DANGKI.pdb
+D:\cn.net\bai1\DANGKI\DANGKI\obj\Debug\DANGKI.csprojResolveAssemblyReference.cache
+D:\cn.net\bai1\DANGKI\DANGKI\obj\Debug\DANGKI.dll
+D:\cn.net\bai1\DANGKI\DANGKI\obj\Debug\DANGKI.pdb

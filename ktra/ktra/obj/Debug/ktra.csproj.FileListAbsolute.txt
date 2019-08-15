@@ -1,0 +1,6 @@
+D:\cn.net\bai1\ktra\ktra\bin\ktra.dll.config
+D:\cn.net\bai1\ktra\ktra\bin\ktra.dll
+D:\cn.net\bai1\ktra\ktra\bin\ktra.pdb
+D:\cn.net\bai1\ktra\ktra\obj\Debug\ktra.csprojResolveAssemblyReference.cache
+D:\cn.net\bai1\ktra\ktra\obj\Debug\ktra.dll
+D:\cn.net\bai1\ktra\ktra\obj\Debug\ktra.pdb

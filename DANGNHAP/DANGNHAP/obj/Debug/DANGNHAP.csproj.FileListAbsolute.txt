@@ -1,0 +1,6 @@
+D:\cn.net\bai1\DANGNHAP\DANGNHAP\bin\DANGNHAP.dll.config
+D:\cn.net\bai1\DANGNHAP\DANGNHAP\bin\DANGNHAP.dll
+D:\cn.net\bai1\DANGNHAP\DANGNHAP\bin\DANGNHAP.pdb
+D:\cn.net\bai1\DANGNHAP\DANGNHAP\obj\Debug\DANGNHAP.csprojResolveAssemblyReference.cache
+D:\cn.net\bai1\DANGNHAP\DANGNHAP\obj\Debug\DANGNHAP.dll
+D:\cn.net\bai1\DANGNHAP\DANGNHAP\obj\Debug\DANGNHAP.pdb

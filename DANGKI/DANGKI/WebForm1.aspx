@@ -87,7 +87,7 @@
                     <asp:TextBox ID="txtMk" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:CompareValidator ID="cmvMk" runat="server" ControlToValidate="txtMk" ErrorMessage="Nhập mật khẩu">Nhập đầy đủ</asp:CompareValidator>
+                    <asp:RequiredFieldValidator ID="rvfMk" runat="server" ControlToValidate="txtMk" ErrorMessage="Nhập mật khẩu" Text="Nhập đầy đủ"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>

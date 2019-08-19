@@ -130,13 +130,13 @@ namespace DANGKI {
         protected global::System.Web.UI.WebControls.TextBox txtMk;
         
         /// <summary>
-        /// cmvMk control.
+        /// rvfMk control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cmvMk;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvfMk;
         
         /// <summary>
         /// Label11 control.

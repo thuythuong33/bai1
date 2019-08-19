@@ -25,13 +25,13 @@ namespace DANGNHAP
                 return dr.Read();
             }
         }
-        public bool Checkquanlynv(string taikhoan)
+        public bool Checkquanlynv(string taiKhoan)
         {
             using (SqlConnection conn = new SqlConnection(connect))
             {
                 string sql = "select count(*) from kiemtra where Taikhoan=@tk";
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@tk", taikhoan);
+                cmd.Parameters.AddWithValue("@tk", taiKhoan);
                 conn.Open();
                 int count = (int)cmd.ExecuteScalar();
                 return (count >= 1);
@@ -69,7 +69,7 @@ namespace DANGNHAP
         {
             using (SqlConnection conn = new SqlConnection(connect))
             {
-                string sql = "update kiemtra set Matkhau=@mk,Hoten=@ht,Nhaplaimatkhau=nlmk,Email=@em where Taikhoan=@tk";
+                string sql = "update kiemtra set Matkhau=@mk,Hoten=@ht,Nhaplaimatkhau=@nlmk,Email=@em where Taikhoan=@tk";
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@tk", s.TaiKhoan);
                 cmd.Parameters.AddWithValue("@mk", s.MatKhau);
@@ -81,25 +81,25 @@ namespace DANGNHAP
                 return (count >= 1);
             }
         }
-        public bool Deletequanlynv(string taikhoan)
+        public bool Deletequanlynv(string taiKhoan)
         {
             using (SqlConnection conn = new SqlConnection(connect))
             {
-                string sql = "delete from kiemtra where taikhoan=@ma";
+                string sql = "delete from kiemtra where TaiKhoan=@tk";
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@tk", taikhoan);
+                cmd.Parameters.AddWithValue("@tk", taiKhoan);
                 conn.Open();
                 int count = (int)cmd.ExecuteNonQuery();
                 return (count >= 1);
             }
         }
-        public nhanvien GetquanlynvByID(string taikhoan)
+        public nhanvien GetquanlynvByID(string taiKhoan)
         {
             using (SqlConnection conn = new SqlConnection(connect))
             {
                 string sql = "select * from kiemtra where TaiKhoan=@tk";
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@tk",taikhoan);
+                cmd.Parameters.AddWithValue("@tk",taiKhoan);
                 conn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.Read())

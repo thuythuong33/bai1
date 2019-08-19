@@ -70,7 +70,7 @@ namespace DANGNHAP
         {
 
             s = LayDuLieuTuForm();
-            bool result = cn.Updatequanlynv(s);
+            bool result = cn.Updatequanlynv( s);
             if (result)
             {
                 lblThongbao.Text = "Cập nhập thành công";
@@ -82,24 +82,11 @@ namespace DANGNHAP
             }
         }
 
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string maSach = GridView1.SelectedRow.Cells[0].Text;
-            s = cn.GetquanlynvByID(taikhoan);
-            if (s != null)
-            {
-                txtTk.Text = s.TaiKhoan;
-                txtMk.Text = s.MatKhau;
-                txtHt.Text = s.HoTen;
-                txtNlmk.Text = s.NhapLaiMatKhau;
-                txtEmail.Text = s.Email;
-
-            }
-        }
+      
         protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-            string taikhoan = GridView1.Rows[e.RowIndex].Cells[0].Text;
-            bool result = cn.Deletequanlynv(taikhoan);
+            string taiKhoan = GridView1.Rows[e.RowIndex].Cells[0].Text;
+            bool result = cn.Deletequanlynv(taiKhoan);
             if (result)
             {
                 lblThongbao.Text = "Xóa thành công";

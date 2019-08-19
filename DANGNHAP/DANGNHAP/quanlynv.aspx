@@ -24,8 +24,19 @@
         .auto-style2 {
             width: 199px;
         }
+        .auto-style6 {
+            width: 181px;
+            height: 29px;
+        }
+        .auto-style7 {
+            width: 199px;
+            height: 29px;
+        }
+        .auto-style8 
         </style>
 </head>
+          
+        
 <body>
     <form id="form2" runat="server">
         <div>
@@ -47,13 +58,13 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">
+                    <td class="auto-style6">
                         <asp:Label ID="Label3" runat="server" Text="Mật khẩu"></asp:Label>
                     </td>
-                    <td class="auto-style2">
+                    <td class="auto-style7">
                         <asp:TextBox ID="txtMk" runat="server"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style8"></td>
                 </tr>
                 <tr>
                     <td class="auto-style1">
@@ -96,7 +107,8 @@
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
                     <td class="auto-style2">
-                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Taikhoan" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Taikhoan" DataSourceID="SqlDataSource1" GridLines="None" OnRowDeleting="GridView1_RowDeleting" CellPadding="4" ForeColor="#333333">
+                            <AlternatingRowStyle BackColor="White" />
                             <Columns>
                                 <asp:BoundField DataField="Taikhoan" HeaderText="Taikhoan" ReadOnly="True" SortExpression="Taikhoan" />
                                 <asp:BoundField DataField="Matkhau" HeaderText="Matkhau" SortExpression="Matkhau" />
@@ -105,6 +117,16 @@
                                 <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
                                 <asp:CommandField ShowDeleteButton="True" />
                             </Columns>
+                            <EditRowStyle BackColor="#2461BF" />
+                            <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                            <RowStyle BackColor="#EFF3FB" />
+                            <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                            <SortedAscendingCellStyle BackColor="#F5F7FB" />
+                            <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+                            <SortedDescendingCellStyle BackColor="#E9EBEF" />
+                            <SortedDescendingHeaderStyle BackColor="#4870BE" />
                         </asp:GridView>
                         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:KIEMTRAConnectionString %>" SelectCommand="SELECT * FROM [kiemtra]"></asp:SqlDataSource>
                     </td>

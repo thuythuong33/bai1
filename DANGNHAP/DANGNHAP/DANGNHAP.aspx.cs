@@ -22,7 +22,7 @@ namespace DANGNHAP
             bool kq = cn.DANGNHAP(txtTk.Text, txtMk.Text);
             if (kq)
             {
-                Session["manv"] = txtTk.Text;
+                Session["tk"] = txtTk.Text;
                 Response.Redirect("quanlynv.aspx");
             }
             else

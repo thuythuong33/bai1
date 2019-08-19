@@ -49,6 +49,15 @@ namespace DANGKI {
         protected global::System.Web.UI.WebControls.TextBox txtHt;
         
         /// <summary>
+        /// rvfHt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvfHt;
+        
+        /// <summary>
         /// Label8 control.
         /// </summary>
         /// <remarks>
@@ -65,6 +74,15 @@ namespace DANGKI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCq;
+        
+        /// <summary>
+        /// rvfCq control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvfCq;
         
         /// <summary>
         /// Label15 control.
@@ -85,6 +103,15 @@ namespace DANGKI {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
+        /// revEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
+        
+        /// <summary>
         /// Label10 control.
         /// </summary>
         /// <remarks>
@@ -101,6 +128,15 @@ namespace DANGKI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMk;
+        
+        /// <summary>
+        /// cmvMk control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cmvMk;
         
         /// <summary>
         /// Label11 control.
@@ -121,6 +157,15 @@ namespace DANGKI {
         protected global::System.Web.UI.WebControls.TextBox txtNlmk;
         
         /// <summary>
+        /// rvfNlmk control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rvfNlmk;
+        
+        /// <summary>
         /// Label12 control.
         /// </summary>
         /// <remarks>
@@ -139,6 +184,15 @@ namespace DANGKI {
         protected global::System.Web.UI.WebControls.TextBox txtCheckin;
         
         /// <summary>
+        /// cmvCheckin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cmvCheckin;
+        
+        /// <summary>
         /// Label13 control.
         /// </summary>
         /// <remarks>
@@ -155,6 +209,15 @@ namespace DANGKI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtNgayo;
+        
+        /// <summary>
+        /// cmvNgayo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cmvNgayo;
         
         /// <summary>
         /// Label14 control.
